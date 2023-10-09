@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <label for="firstNumber">
+        Podaj pierwsza liczbe:
+        <input type="text" id="firstNumber" name="firstNumber" />
+      </label>
+      Wybierz znak:
+      <select name="znak" id="znak">
+        <optgroup>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value=":">:</option>
+        </optgroup>
+      </select>
+      <label for="secondNumber">
+        Podaj drugą liczbe:
+        <input type="text" id="secondNumber" name="secondNumber" />
+      </label>
+    </form>
+    <button id="buton">Wykonaj działanie</button>
+    <p id="result">Wynik twojego działania:</p>
+  </body>
+</html>
